@@ -1,3 +1,6 @@
+//! This crate is intended for documentation purposes only.
+//! Please copy this snippet into your project instead of using it as a dependency.
+
 pub enum Error {
     Http(reqwest::Response),
     Transport(reqwest::Error),
@@ -24,4 +27,3 @@ pub fn est(result: Result<reqwest::Response, reqwest::Error>) -> Result<reqwest:
         Err(e) => Err(Error::Transport(e)),
     }
 }
-
