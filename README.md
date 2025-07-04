@@ -1,5 +1,9 @@
 # Reqw
 
+> **⚠️ Warning:** This crate is only published to provide documentation on [docs.rs](https://docs.rs/reqw).
+> It is **not intended to be used via `cargo add`**.
+> Please copy the code manually into your project.
+
 > **Note:** This is not a library — just a _code snippet_ you can copy-paste into your project.
 > Why? Because Rust treats each crate version as a unique type.
 > If this helper were a real library and depended on `reqwest`, it would only work when your project uses **exactly** the same version of `reqwest`.
