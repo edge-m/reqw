@@ -1,0 +1,15 @@
+[package]
+name = "reqw"
+version = "0.1.0"
+edition = "2021"
+description = "A simple reqwest result re-estimator"
+keywords = ["http", "request", "client", "utilities", "error-handling"]
+categories = ["web-programming::http-client"]
+repository = "https://github.com/edge-m/reqw"
+documentation = "https://docs.rs/reqw"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+rust-version = "1.70.0"
+
+[dependencies]
+reqwest = "0.12.22"
