@@ -22,7 +22,7 @@ pub enum Error {
     Transport(reqwest::Error),
 }
 
-/// This function is re-estimates response of reqwest
+/// This function re-estimates response of reqwest
 ///
 /// - Returns `Ok(reqwest::Response)` if status code is 200-299
 /// - Returns `Err(Error::Http)` if the status code is not 2xx
